@@ -1,0 +1,19 @@
+wired-button {
+   margin: 5px 10px;
+   font-size: 16px;
+   text-transform: uppercase;
+   letter-spacing: 0.03em;
+   background: #f0e6f4;
+}
+
+wired-card {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   display: block;
+   text-align: center;
+}
+
+wired-link {
+   --wired-link-decoration-color: black;
+}
