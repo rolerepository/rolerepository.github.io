@@ -7,6 +7,8 @@ body {
    font-display: fallback;
    letter-spacing: 0.05em;
    line-height: 2;
+   background-color: #1C2833;
+   color: snow;
 }
 
 article {
@@ -24,7 +26,7 @@ a:visited {
 }
 
 a.textlink {
-   box-shadow: 0 -6px #f0e6f4 inset;
+   box-shadow: 0 -6px snow inset;
 }
 
 h1 {

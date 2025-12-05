@@ -3,7 +3,7 @@ wired-button {
    font-size: 16px;
    text-transform: uppercase;
    letter-spacing: 0.03em;
-   background: #f0e6f4;
+   background: #1C2833;
 }
 
 wired-card {
@@ -15,5 +15,5 @@ wired-card {
 }
 
 wired-link {
-   --wired-link-decoration-color: black;
+   --wired-link-decoration-color: snow;
 }
