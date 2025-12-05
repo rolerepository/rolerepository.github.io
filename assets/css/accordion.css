@@ -28,17 +28,20 @@ summary::-webkit-details-marker {
 }
 
 .tree-nav__item.is-expandable[open] > .tree-nav__item-title::before,
+.tree-nav__item.is-expandable[open] > .tree-nav__item-subtitle::before,
 .tree-nav__item.is-expandable[open] > .tree-nav__item-item::before {
   font-family: "bootstrap-icons";
   transform: rotate(90deg);
 }
 
 .tree-nav__item.is-expandable > .tree-nav__item-title,
+.tree-nav__item.is-expandable > .tree-nav__item-subtitle,
 .tree-nav__item.is-expandable > .tree-nav__item-item {
   padding-left: 2.4rem;
 }
 
 .tree-nav__item.is-expandable > .tree-nav__item-title::before,
+.tree-nav__item.is-expandable > .tree-nav__item-subtitle::before,
 .tree-nav__item.is-expandable > .tree-nav__item-item::before {
   position: absolute;
   will-change: transform;
@@ -56,7 +59,15 @@ summary::-webkit-details-marker {
   cursor: pointer;
   display: block;
   outline: 0;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.tree-nav__item-subtitle {
+  cursor: pointer;
+  display: block;
+  outline: 0;
+  font-size: 1.2rem;
   line-height: 2.6rem;
 }
 
