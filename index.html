@@ -11,9 +11,6 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-   <!-- Wired Elements -->
-   <script type="module" src="https://unpkg.com/wired-elements?module"></script>
-
    <!-- Icons -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
@@ -23,6 +20,9 @@
    <link rel="stylesheet" type="text/css" href="assets/css/accordion.css">
    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    <link rel="stylesheet" type="text/css" href="assets/css/wired-elements.css">
+
+   <script type="module" src="https://unpkg.com/wired-elements?module"></script>
+   <!-- <script>src="assets/js/accordion.js" </script> -->
 </head>
 
 <body>
@@ -34,50 +34,119 @@
       </header>
    </article>
    <article>
-      <nav class="tree-nav">
-         <details class="tree-nav__item is-expandable">
-            <summary class="tree-nav__item-title">Dungeons and Dragons (5a Ed.)</summary>
-
-            <details class="tree-nav__item is-expandable">
-               <summary class="tree-nav__item-subtitle">Manuales</summary>
-               <div class="tree-nav__item">
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://share.eu.internxt.com/sh/file/LA6pmMDVSuSvktAUrBh6fQ/wAxusTcQ">El Caldero de Tasha para Todo</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.internxt.com/sh/file/G8txoxDpRqODWq9ChsXxFQ/c2cx-2Hm">Guía de Gremios de Rávnica</wired-link> (Wizards of the Coast) <span class="fi fi-gb-eng"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.internxt.com/sh/file/VuUza1l_QRiI9d0IXGBgcA/U3UaxdrB">Guía de la Costa de la Espada</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.eu.internxt.com/sh/file/fouma9ySSm2wnEZr7WS3Qw/WGrcnQio">Guía de Van Richten para Ravenloft</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.internxt.com/sh/file/zYOytp4ESZijK8yv9vsgQQ/-RSAjLoQ">Guía del Dungeon Master</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.internxt.com/sh/file/Rqrn_q1lSlmDzmzsm9dhuA/RSbVt3NO">Guía del Dungeon Master para Neverwinter</wired-link> (Inchoate Thoughts) <span class="fi fi-gb-eng"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://share.ue.internxt.com/sh/file/jUhWpifLSi-K6ZCu5T8sHQ/8qBTMhCQ">Guía del Xanathar para Todo</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.ue.internxt.com/sh/file/dK5DjASmRU2uRBL8405DIQ/DWDklER_">Manual de Monstruos</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.ue.internxt.com/sh/file/xSi4NYEIRUusPeYARPd_4w/N3occsmN">Manual del Jugador</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-                  <a class="tree-nav__item-item"><i class="bi bi-book-half"></i> <wired-link href="https://share.ue.internxt.com/sh/file/IrooChixTmen9UHNWr0C6A/OQfXBKiH">Reglamento de la Caja de Inicio</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
-               </div>
-            </details>
-
-            <details class="tree-nav__item is-expandable">
-               <summary class="tree-nav__item-subtitle">Aventuras</summary>
-               <div class="tree-nav__item">
-                  <a class="tree-nav__item-item"><i class="bi bi-backpack3"></i> TBU</a>
-               </div>
-            </details>
-
-            <details class="tree-nav__item is-expandable">
-               <summary class="tree-nav__item-subtitle">Suplementos</summary>
-               <div class="tree-nav__item">
-                  <a class="tree-nav__item-item"><i class="ra ra-diamonds-card"></i> TBU</a>
-                  <a class="tree-nav__item-item"><i class="bi bi-map"></i> TBU</a>
-               </div>
-            </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">7º Mar</summary>
+         <details class="accordion is-expandable">
+            <summary class="accordion__subtitle">Manuales</summary>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.eu.internxt.com/sh/file/dWU4D2evTtOCVfcRTBcotQ/6d0cAWxJ">7º Mar (John Wick Presents)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.eu.internxt.com/sh/file/jDqrW-C3Qv2HA_qPXozhng/QzzUzchz">Naciones de Théah, Volumen 1 (John Wick Presents)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.eu.internxt.com/sh/file/lnOw8y6VSKO30EjCEaL81g/HG5yEt0k">Naciones de Théah, Volumen 2 (John Wick Presents)</wired-link> <span class="fi fi-es"></span></a>
          </details>
-
-         <details class="tree-nav__item is-expandable">
-            <summary class="tree-nav__item-title">Dungeons and Dragons (2024)</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Anima: Beyond Fantasy</summary>
+         <details class="accordion is-expandable">
+            <summary class="accordion__subtitle">Manuales</summary>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.ue.internxt.com/sh/file/oZeEGvN_T8WQ3x4vwhvVeg/8v9dbHyl">Arcana Exxet (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.internxt.com/sh/file/AV0agbk3TQe6Cwf9YgVbmw/NMdrG0qi">Core Exxet (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.eu.internxt.com/sh/file/KS52wq3oTuWuM9yEdP9YyA/Zix5b9nC">Dominus Exxet (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://secure.internxt.com/sh/file/2Mm3Du0xS6S63xz36DhKXw/dhzelqUY">Los que caminaron con nosotros, Volumen 1 (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.ue.internxt.com/sh/file/VAvLbIU5Qx--paeYOdCVAQ/KLxdTap5">Prometheum Exxet (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
          </details>
-      </nav>
+         <details class="accordion is-expandable">
+            <summary class="accordion__subtitle">Suplementos</summary>
+               <a class="accordion__item"><i class="bi bi-capsule"></i> <wired-link href="https://share.eu.internxt.com/sh/file/CR7ImT_wSa-LL5CSTxY5ow/8-kAjse7">Dramatis Personae (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-globe-europe-africa"></i> <wired-link href="https://secure.ue.internxt.com/sh/file/_kOyFmVPSQ2SH_gCcKCbGg/R9pLi91F">Gaia, Volumen 1: Más allá de los Sueños (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-globe-europe-africa"></i> <wired-link href="https://share.eu.internxt.com/sh/file/X8qEcOowRHqXaRVtb11slw/KKg7kfCe">Gaia, Volumen 2: Más allá del Espejo (Anima Project Studio)</wired-link> <span class="fi fi-es"></span></a>
+         </details>
+      </details>
+      <!-- <details class="accordion is-expandable">
+         <summary class="accordion__title">Aquelarre: Juego de rol demoníaco medieval</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Aventuras y Misterios</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Band of Blades</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Cazador: La Venganza</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Discworld</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Dragon Age</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Dune</summary>
+      </details> -->
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Dungeons and Dragons (5a Ed.)</summary>
+         <details class="accordion is-expandable">
+            <summary class="accordion__subtitle">Manuales</summary>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/LA6pmMDVSuSvktAUrBh6fQ/wAxusTcQ">El Caldero de Tasha para Todo</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/G8txoxDpRqODWq9ChsXxFQ/c2cx-2Hm">Guía de Gremios de Rávnica</wired-link> (Wizards of the Coast) <span class="fi fi-gb-eng"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/VuUza1l_QRiI9d0IXGBgcA/U3UaxdrB">Guía de la Costa de la Espada</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/fouma9ySSm2wnEZr7WS3Qw/WGrcnQio">Guía de Van Richten para Ravenloft</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/zYOytp4ESZijK8yv9vsgQQ/-RSAjLoQ">Guía del Dungeon Master</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/Rqrn_q1lSlmDzmzsm9dhuA/RSbVt3NO">Guía del Dungeon Master para Neverwinter</wired-link> (Inchoate Thoughts) <span class="fi fi-gb-eng"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/jUhWpifLSi-K6ZCu5T8sHQ/8qBTMhCQ">Guía del Xanathar para Todo</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/dK5DjASmRU2uRBL8405DIQ/DWDklER_">Manual de Monstruos</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/xSi4NYEIRUusPeYARPd_4w/N3occsmN">Manual del Jugador</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+               <a class="accordion__item"><i class="bi bi-book-half"></i> <wired-link href="https://share.internxt.com/sh/file/IrooChixTmen9UHNWr0C6A/OQfXBKiH">Reglamento de la Caja de Inicio</wired-link> (Wizards of the Coast) <span class="fi fi-es"></span></a>
+         </details>
+         <!-- <details class="accordion is-expandable">
+            <summary class="accordion__subtitle">Aventuras</summary>
+               <a class="accordion__item"><i class="bi bi-backpack3"></i> La Llamada de Netherdeep (Critical Role) <span class="fi fi-gb-eng"></span></a>
+         </details>
+         <details class="accordion is-expandable">
+            <summary class="accordion__subtitle">Suplementos</summary>
+               <a class="accordion__item"><i class="ra ra-diamonds-card"></i> TBU</a>
+               <a class="accordion__item"><i class="bi bi-map"></i> TBU</a>
+         </details> -->
+      </details>
+      <!-- <details class="accordion is-expandable">
+         <summary class="accordion__title">Dungeons and Dragons (2024)</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Fading Suns</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">HeroKids</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Maho Shojo</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Las ávidas espadachinas sáficas</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Pathfinder</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Pequeños Detectives de Monstruos</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Ten Candles</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Trudvang Chronicles</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Vampiro: Edad Oscura 20 Aniversario</summary>
+      </details>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Vampiro: La Mascarada 20 Aniversario</summary>
+      </details>
+      <br><wired-divider></wired-divider><br>
+      <details class="accordion is-expandable">
+         <summary class="accordion__title">Aventuras All Fantasy RPG Compatible</summary>
+      </details> -->
    </article>
    <wired-divider></wired-divider>
    <footer style="text-align: center;">
-      Créditos: <br>
+      <h2>Créditos</h2>
       <a href="https://www.flaticon.com/free-icons/d20" title="d20 icons">D20 icons created by Freepik - Flaticon</a>
    </footer>
 </body>

@@ -8,13 +8,13 @@ summary::-webkit-details-marker {
    display: none;
 }
 
-.tree-nav__item {
+.accordion {
   display: block;
   white-space: nowrap;
   position: relative;
 }
 
-.tree-nav__item.is-expandable::before {
+.accordion.is-expandable::before {
   content: "";
   height: 100%;
   left: 0.8rem;
@@ -23,26 +23,24 @@ summary::-webkit-details-marker {
   height: calc(100% - 2.4rem);
 }
 
-.tree-nav__item .tree-nav__item {
+.accordion .accordion {
   margin-left: 2.4rem;
 }
 
-.tree-nav__item.is-expandable[open] > .tree-nav__item-title::before,
-.tree-nav__item.is-expandable[open] > .tree-nav__item-subtitle::before,
-.tree-nav__item.is-expandable[open] > .tree-nav__item-item::before {
+.accordion.is-expandable[open] > .accordion__title::before,
+.accordion.is-expandable[open] > .accordion__subtitle::before {
   font-family: "bootstrap-icons";
   transform: rotate(90deg);
 }
 
-.tree-nav__item.is-expandable > .tree-nav__item-title,
-.tree-nav__item.is-expandable > .tree-nav__item-subtitle,
-.tree-nav__item.is-expandable > .tree-nav__item-item {
+.accordion.is-expandable > .accordion__title,
+.accordion.is-expandable > .accordion__subtitle,
+.accordion.is-expandable > .accordion__item {
   padding-left: 2.4rem;
 }
 
-.tree-nav__item.is-expandable > .tree-nav__item-title::before,
-.tree-nav__item.is-expandable > .tree-nav__item-subtitle::before,
-.tree-nav__item.is-expandable > .tree-nav__item-item::before {
+.accordion.is-expandable > .accordion__title::before,
+.accordion.is-expandable > .accordion__subtitle::before {
   position: absolute;
   will-change: transform;
   transition: transform 300ms ease;
@@ -55,7 +53,7 @@ summary::-webkit-details-marker {
   text-align: center;
 }
 
-.tree-nav__item-title {
+.accordion__title {
   cursor: pointer;
   display: block;
   outline: 0;
@@ -63,7 +61,7 @@ summary::-webkit-details-marker {
   line-height: 2.6rem;
 }
 
-.tree-nav__item-subtitle {
+.accordion__subtitle {
   cursor: pointer;
   display: block;
   outline: 0;
@@ -71,12 +69,12 @@ summary::-webkit-details-marker {
   line-height: 2.6rem;
 }
 
-.tree-nav__item-item {
+.accordion__item {
   cursor: pointer;
   display: block;
   outline: 0;
 }
 
-.tree-nav__item-title::-webkit-details-marker {
+.accordion__title::-webkit-details-marker {
   display: none;
 }
